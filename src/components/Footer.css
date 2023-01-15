@@ -1,0 +1,27 @@
+.footer {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    margin: 10px 40px;
+}
+.foot-text{
+    color: #094AAD;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.foot-app ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #094AAD;
+    font-size: 1.5rem;
+}
+.copyright{
+    font-weight: 400;
+    color: #094AAD;
+}
+.copyright sup{
+    color: #094AAD;
+    font-size: .8rem;
+}

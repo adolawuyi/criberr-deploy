@@ -1,0 +1,49 @@
+.about-us{
+    background: #f7f6f6;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    gap: 5rem;
+}
+.who{
+    width:max-content;
+    margin: auto;
+}
+.who-we-are{
+    color: #094AAD;
+    margin-bottom: 25px;
+}
+.about-us h2 {
+    margin-bottom: 10px;
+}
+.about-us p {
+    margin-bottom: 10px;
+}
+.video{
+    margin: auto;
+    max-width: 600px;
+}
+
+summary{
+    color: #094AAD;
+}
+@media screen and (max-width:940px) {
+    .about-us{
+        margin-top: 50px;
+        display: block;
+        width: 100%;
+    }
+    .video
+    {
+        padding-top: 15px;
+    }
+    .who p {
+        font-size: medium;
+    }
+    .who-we-are{
+        margin: 25px;
+    }
+}
