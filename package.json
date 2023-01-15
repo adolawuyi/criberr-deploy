@@ -1,8 +1,8 @@
 {
+  "homepage": "https://adolawuyi.github.io/criberr-deploy",
   "name": "criberr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://adolawuyi.github.io",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -29,9 +29,9 @@
     "webpack": "^4.19.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts --openssl-legacy-provider start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
