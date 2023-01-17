@@ -1,26 +1,18 @@
+
 .features{
     background: #F2F8FF;
     height: 70vh;
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 100px;
-    gap: 5rem;
-    margin: auto;
+    gap: 3rem !important;
+    background-size: cover;
 }
-.get-started{
-   margin: auto;
-}
+
 .started{
     color: #094AAD;
 }
 .get-started span{
-   margin-right: 25px;
+   margin-right: 15px;
 }
-.get-started p {
-   margin: 20px 0;
-}
+
 .get-started li {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     list-style: none;
@@ -33,20 +25,21 @@
     max-width: 400px;
 }
 
-.our-service{
-  margin-top: 20px;
-  margin-left: 100px;
-  align-content: center;
-}
 @media screen and (max-width:940px) {
     .features{
         display: block;
         width: 100%;
+        justify-content: center;
     }
-
-   
+    .started h1{
+        text-align: center;
+    }
     .get-started li {
         list-style: none;
         line-height: 1.2;
+        font-size: 0.8rem;
+    }
+    .our-service a{
+        font-size: 1rem;
     }
 }

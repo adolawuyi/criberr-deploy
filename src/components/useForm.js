@@ -1,12 +1,13 @@
 import {useState, useEffect} from "react";
 import Validation from "./Validation";
 import axios from 'axios'
+
+
 const useForm = (submitForm) => {
 const url = "https://us-central1-criberr-30ca5.cloudfunctions.net/app/create"
 const [values, setValues] = useState({
-    fullName: " ",
+    fullName: "",
     email: "",
-    phoneNumber: ""
 });
 
 const [errors, setErrors] = useState ({});

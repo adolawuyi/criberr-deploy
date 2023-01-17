@@ -1,30 +1,23 @@
 .about-us{
-    background: #f7f6f6;
     height: 70vh;
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 100px;
-    gap: 5rem;
+    gap: 2rem !important;
+    background-size: cover;
+    align-content: center;
 }
 .who{
-    width:max-content;
-    margin: auto;
+    margin-left: 150px ;
+    margin-bottom: 25px;
+    align-items: flex-end;
+    float: right;
+    padding: auto;
 }
 .who-we-are{
     color: #094AAD;
-    margin-bottom: 25px;
+   
 }
-.about-us h2 {
-    margin-bottom: 10px;
-}
-.about-us p {
-    margin-bottom: 10px;
-}
+
 .video{
-    margin: auto;
-    max-width: 600px;
+    max-width: 400px;
 }
 
 summary{
@@ -32,18 +25,21 @@ summary{
 }
 @media screen and (max-width:940px) {
     .about-us{
-        margin-top: 50px;
         display: block;
-        width: 100%;
     }
-    .video
-    {
-        padding-top: 15px;
-    }
-    .who p {
-        font-size: medium;
+    .who{
+        margin: auto;
+        text-align: center;
     }
     .who-we-are{
-        margin: 25px;
+        font-size: 1.5rem;
     }
+    h2{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.8rem; 
+    }
+   
+    
 }

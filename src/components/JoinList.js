@@ -7,7 +7,7 @@ const JoinList = () => {
         <div className='form'>
         <WaitListForm />
         </div>
-        
+
     </div>
     
   )

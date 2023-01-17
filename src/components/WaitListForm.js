@@ -1,11 +1,45 @@
-import React from 'react'
+import {React, useState, useEffect} from 'react'
 import './WaitListForm.css'
-import useForm from './useForm'
+import Validation from './Validation'
+import axios from 'axios'
 
 const WaitListForm = ({submitForm}) => {
+    const url = "https://us-central1-criberr-30ca5.cloudfunctions.net/app/create"
+const [values, setValues] = useState({
+    fullName: "",
+    email: "",
+});
+
+const [errors, setErrors] = useState ({});
+const [dataIsCorrect, setDataIsCorrect] = useState(false);
+
+ const handleChange = (event) => {
+    setValues({
+        ...values,
+        [event.target.name]: event.target.value,
+    })
+ }
+const handleFormSubmit = (event) => {
+    event.preventDefault();
+    setErrors(Validation(values));
+    setDataIsCorrect(true);
+    axios.post(url, values, {
+    headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json"
+    }
+
+})
+    .then(res => console.log(res))
+    .catch(err => console.log(err))
+};
+
+useEffect(() =>{
+    if(Object.keys(errors).length === 0 && dataIsCorrect){
+        submitForm(true);
+    }
+},[errors]);
     
-    const {handleChange, handleFormSubmit, values, errors } = useForm(submitForm);
-   
   return (
     <div className='container'>
         <div className='app-wrapper'>
@@ -36,18 +70,7 @@ const WaitListForm = ({submitForm}) => {
                     />
                     {errors.email && <p className='error'>{errors.email}</p>}
                 </div>
-                <div className='phoneNumber'>
-                    <label className='label'>Phone Number</label>
-                    <input className='input' 
-                    id='phoneNumber'
-                    type='tel' 
-                    name='phoneNumber' 
-                    value={values.phoneNumber}
-                    onChange={handleChange}
-                    />
-                    {errors.phoneNumber && <p className='error'>{errors.phoneNumber}</p>}
-                </div>
-                <div className='submit' onClick={handleFormSubmit}>Join</div>
+                <button className='submit-form' name='submit' onClick={handleFormSubmit}>Join</button>
             </form>
         </div>
       
