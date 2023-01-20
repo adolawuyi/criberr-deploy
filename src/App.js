@@ -1,23 +1,26 @@
 
 import React from 'react'
-import Navigationbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Features from './components/Features';
 import JoinList from './components/JoinList';
-import Footer from './components/Footer';
+import Footers from './components/Footers';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigationbar from './components/Navbar';
+
+
 function App() {
 
   return (
-    <>
+   <>
     <Navigationbar/>
     <Hero />
     <About />
     <Features />
     <JoinList />
-    <Footer />
-    </>
+     <Footers />
+</>
+ 
   )
 }
 

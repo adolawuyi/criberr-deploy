@@ -25,3 +25,23 @@
     color: #094AAD;
     font-size: .8rem;
 }
+
+@media screen and (max-width: 940px){
+
+    .footer{
+        max-width: 100%;
+        display: flex;
+        vertical-align: middle;
+        float: none;
+    }
+    .foot-text{
+        font-size: 0.7rem;
+    }
+    .foot-app ul{
+        font-size: 1rem;
+        gap: none;
+    }
+    .copyright, .copyright sup{
+        display: none;
+    }
+}

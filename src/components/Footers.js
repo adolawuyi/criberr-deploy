@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import {FaTwitter, FaFacebook, FaInstagram, FaRegCopyright} from 'react-icons/fa'
+import {FaTwitter, FaFacebook, FaInstagram} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -8,9 +8,6 @@ const Footer = () => {
     <div className='footer' >
       <div className='foot-text'>
         <a href='/'>www.criberr.com</a>
-      </div>
-      <div className='copyright'>
-        <p>Criberr 2022 <sup><FaRegCopyright/></sup></p>
       </div>
       <div className='foot-app'>
         <ul>

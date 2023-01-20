@@ -1,10 +1,11 @@
+
 .hero{
     background-color: #fff;
     height: 100vh;
-    width:max-content;
     position: relative;
-    justify-content: space-between;
-    gap: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px;
 }
 
 .hero:before {
@@ -20,7 +21,6 @@
     color: var(--primary-dark);
     font-size: 3rem;
     font-weight: 800;
-    margin-top: 150px;
     
 }
 .heroh{
@@ -36,7 +36,10 @@ font-weight: 700;
 margin-left: 10px;
 }
 .hero-img{
-    width: 450px;
+    width: 400px;
+    margin: auto;
+    margin-left: 40px;
+    margin-top: 40px;
 }
 .hero .button{
     margin: 1rem;
@@ -46,17 +49,27 @@ margin-left: 10px;
     cursor: pointer;
 }
 
-@media screen and (max-width:940px) {
-   
+@media screen and (max-width: 940px) {
+   .hero1{
+    padding: 0;
+    margin: 0;
+   }
+    .hero{
+    max-height: 100%;
+    padding-top: 50px;
+   }
     .heroh1, .heroh{
         font-size: 2rem;
     }
     .herop{
         font-size: 0.8rem;
     }
-.hero-img{
-    display: none;
-}
+    .hero-img{
+        max-width: 100%;
+        max-height: 100%;
+        align-items: center;
+        float: center;
+    }
 
 }
     

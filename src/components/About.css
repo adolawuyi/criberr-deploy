@@ -1,10 +1,15 @@
 .about-us{
-    height: 70vh;
+    max-height: 100%;
     gap: 2rem !important;
     background-size: cover;
     align-content: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: center;
 }
+
 .who{
+    margin-top: 100px;
     margin-left: 150px ;
     margin-bottom: 25px;
     align-items: flex-end;
@@ -13,18 +18,28 @@
 }
 .who-we-are{
     color: #094AAD;
-   
+    font-size: 1.125;
+}
+.who-we-are-2{
+    font-size: 2.25
 }
 
-.video{
-    max-width: 400px;
+p{
+    font-size: 1.125;
 }
 
+.about-img{
+    width: 400px
+}
 summary{
     color: #094AAD;
 }
 @media screen and (max-width:940px) {
     .about-us{
+        max-height: 100%;
+        
+    }
+    .about{
         display: block;
     }
     .who{
@@ -34,12 +49,11 @@ summary{
     .who-we-are{
         font-size: 1.5rem;
     }
-    h2{
+    .who-we-are-2{
         font-size: 1rem;
     }
     p{
         font-size: 0.8rem; 
     }
-   
     
 }

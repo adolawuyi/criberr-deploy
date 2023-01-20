@@ -3,7 +3,7 @@ import Dialog from "@material-ui/core/Dialog";
 import DialogActions from "@material-ui/core/DialogActions";
 import Button from "@material-ui/core/Button";
 import './ModalDialog.css'
-import Form from "./Form";
+import JoinForm from "./JoinForm";
 import { DialogContent } from "@material-ui/core";
 
 export default function ModalDialog() {
@@ -21,7 +21,7 @@ return (
 	<div stlye={{}}>
 	<Button id='button' variant="outlined" color="primary"
 			onClick={handleClickToOpen}>
-		Join Our Waitlist
+		Join Waitlist
 	</Button>
 	<Dialog open={open} >
     <DialogActions>
@@ -31,7 +31,7 @@ return (
 		</Button>
 		</DialogActions>
         <DialogContent>
-        <Form />
+        <JoinForm />
         </DialogContent>
 	</Dialog>
 	</div>

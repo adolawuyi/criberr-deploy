@@ -8,10 +8,10 @@ const SubmitFormAlert = () => {
     <div className='container'>
         <div className='app-wrapper'>
             <h1 className='form-success'>
-                You Are In!
+                Thank you for Joining
             </h1>
             <p className='para-sucess'>
-              Look out for our Mobile-App Launch Mail
+              Please look out for our Mobile-App Launch Mail
             </p>
             <p className='para-sucess'>
               While you wait, Please share
