@@ -11,18 +11,18 @@ import Col from 'react-bootstrap/Col';
 const Hero = () => {
   return (
     
-      <Container id='hero' className='hero1'>
+      <Container fluid id='hero' className='hero1'>
         <Row>
           <Col lg={6} md={12} sm={12} xs={12} className='hero' >
           <div className='content'>
             <h1 className='heroh1'> Get Easily Connected</h1>
             <h1 className='heroh'>to nearby Quality Services</h1>
-            <p className='herop'>Bringing you solutions to all your needs anywhere and everywhere,
+            <p className='herop'>Bringing Quality solutions to all your needs anywhere and everywhere,
               Get connected as you go!</p>
             <ModalDialog />
         </div>
           </Col>
-          <Col lg={6} md={12} sm={12} xs={12} >
+          <Col  >
           <img className='hero-img img-fluid'  src={newheader} alt='herologo' />
           </Col>
     

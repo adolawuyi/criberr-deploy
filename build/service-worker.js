@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/criberr-deploy/precache-manifest.6698ea526640d15fef626f24a268c160.js"
+  "/criberr-deploy/precache-manifest.ee8c3a55384595f79432c02703d717af.js"
 );
 
 workbox.clientsClaim();

@@ -62,7 +62,7 @@ const JoinForm = () => {
       description={
         <p className='para-sucess'>
         Thank you for Joining <br/>
-        While you wait, Please share
+        While you wait, please share for others to join
         <Container
         style={{
           size: 10

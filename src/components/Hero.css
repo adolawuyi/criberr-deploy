@@ -1,24 +1,14 @@
 .hero1{
-    display: flex;
+    background-color: #e2eefc;
+    height: 100vh;
 }
 .hero{
-    background-color: #fff;
-    height: 100vh;
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    padding: 120px;
+    padding: 120px 0 0 0px;
 }
 
-.hero:before {
-    content: '';
-    background: url(./images/headerbg.png) no-repeat cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 .heroh1{
     color: var(--primary-dark);
     font-size: 3rem;
@@ -34,8 +24,7 @@
 
 .herop{
 font-size: 1.2rem;
-font-weight: 700;
-margin-left: 10px;
+margin-left: 5px;
 }
 .hero-img{
     width: 400px;
@@ -43,9 +32,7 @@ margin-left: 10px;
     margin-left: 40px;
     margin-top: 40px;
 }
-.hero .button{
-    margin: 1rem;
-}
+
 .hero .button:hover{
     background-color: #fff;
     cursor: pointer;
@@ -53,12 +40,11 @@ margin-left: 10px;
 
 @media screen and (max-width: 940px) {
    .hero1{
-    padding: 0;
-    margin: 0;
+    margin-bottom: 5px;
    }
     .hero{
     max-height: 100%;
-    padding-top: 50px;
+    padding-top: 10px;
    }
     .heroh1, .heroh{
         font-size: 2rem;
@@ -67,11 +53,9 @@ margin-left: 10px;
         font-size: 0.8rem;
     }
     .hero-img{
-        width: 300px;
-        max-height: 100%;
+        width: 250px;
         align-items: center;
         float: center;
-
     }
 
 }
