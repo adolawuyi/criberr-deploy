@@ -22,7 +22,7 @@ const Hero = () => {
             <ModalDialog />
         </div>
           </Col>
-          <Col >
+          <Col lg={6} md={12} sm={12} xs={12} >
           <img className='hero-img img-fluid'  src={newheader} alt='herologo' />
           </Col>
     
