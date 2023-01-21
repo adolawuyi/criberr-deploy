@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ed5b99b3baa55b4bc35e",
+    "revision": "46f449ef2d30d579b613",
     "url": "/criberr-deploy/static/css/main.b883e61c.chunk.css"
   },
   {
-    "revision": "ed5b99b3baa55b4bc35e",
-    "url": "/criberr-deploy/static/js/main.ed5b99b3.chunk.js"
+    "revision": "46f449ef2d30d579b613",
+    "url": "/criberr-deploy/static/js/main.46f449ef.chunk.js"
   },
   {
     "revision": "46e7ca694ebaddbfb7c3",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/criberr-deploy/static/media/logo.3a483441.png"
   },
   {
-    "revision": "aeaca8ccfac52319d1de0d59c16eeaed",
+    "revision": "dae063e0a69d8f2dfe343df9a270ce4a",
     "url": "/criberr-deploy/index.html"
   }
 ];

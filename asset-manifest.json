@@ -1,7 +1,7 @@
 {
   "main.css": "/criberr-deploy/static/css/main.b883e61c.chunk.css",
-  "main.js": "/criberr-deploy/static/js/main.ed5b99b3.chunk.js",
-  "main.js.map": "/criberr-deploy/static/js/main.ed5b99b3.chunk.js.map",
+  "main.js": "/criberr-deploy/static/js/main.46f449ef.chunk.js",
+  "main.js.map": "/criberr-deploy/static/js/main.46f449ef.chunk.js.map",
   "static/css/1.f572cc23.chunk.css": "/criberr-deploy/static/css/1.f572cc23.chunk.css",
   "static/js/1.46e7ca69.chunk.js": "/criberr-deploy/static/js/1.46e7ca69.chunk.js",
   "static/js/1.46e7ca69.chunk.js.map": "/criberr-deploy/static/js/1.46e7ca69.chunk.js.map",
@@ -15,6 +15,6 @@
   "static/css/main.b883e61c.chunk.css.map": "/criberr-deploy/static/css/main.b883e61c.chunk.css.map",
   "static/css/1.f572cc23.chunk.css.map": "/criberr-deploy/static/css/1.f572cc23.chunk.css.map",
   "index.html": "/criberr-deploy/index.html",
-  "precache-manifest.6698ea526640d15fef626f24a268c160.js": "/criberr-deploy/precache-manifest.6698ea526640d15fef626f24a268c160.js",
+  "precache-manifest.1c4b6412a537c8c3d2c225f2aa87bd91.js": "/criberr-deploy/precache-manifest.1c4b6412a537c8c3d2c225f2aa87bd91.js",
   "service-worker.js": "/criberr-deploy/service-worker.js"
 }
