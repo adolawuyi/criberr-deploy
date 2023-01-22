@@ -1,6 +1,7 @@
 .hero1{
     background-color: #e2eefc;
     height: 100vh;
+    
 }
 .hero{
     position: relative;
@@ -13,18 +14,21 @@
     color: var(--primary-dark);
     font-size: 3rem;
     font-weight: 800;
+    padding-left: 50px;
     
 }
 .heroh{
     color: var(--primary-dark);
     font-size: 3rem;
     font-weight: 800;
+    padding-left: 50px;
 }
 
 
 .herop{
 font-size: 1.2rem;
 margin-left: 5px;
+padding-left: 50px;
 }
 .hero-img{
     width: 400px;
@@ -40,13 +44,18 @@ margin-left: 5px;
 
 @media screen and (max-width: 940px) {
    .hero1{
+    
     margin-bottom: 5px;
    }
     .hero{
     max-height: 100%;
     padding-top: 10px;
    }
-    .heroh1, .heroh{
+    .heroh1 {
+        margin-top: 10px;
+        font-size: 2rem;
+    }
+    .heroh{
         font-size: 2rem;
     }
     .herop{

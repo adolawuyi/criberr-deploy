@@ -18,8 +18,10 @@ const handleToClose = () => {
 };
 
 return (
-	<div stlye={{}}>
-	<Button id='button' variant="outlined" color="primary"
+	<div >
+	<Button id='button' 
+	variant="outlined" 
+	color="primary"
 			onClick={handleClickToOpen}>
 		Join Waitlist
 	</Button>
