@@ -18,10 +18,12 @@
     padding: auto;
 }
 .who-we-are{
+    margin-top: 25px;
     color: #094AAD;
 }
 .who-we-are-2{
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    color: black;
 }
 
 p{

@@ -44,7 +44,7 @@ padding-left: 50px;
 
 @media screen and (max-width: 940px) {
    .hero1{
-    
+    height: 110vh;
     margin-bottom: 5px;
    }
     .hero{
